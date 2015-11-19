@@ -1,0 +1,344 @@
+body {
+	font: 12px Tahoma;
+	margin: 0px;
+}
+td {
+	font-size: 12px;
+	font-family: Tahoma;
+}
+a
+{
+	text-decoration: none;
+	color: #2E3192;
+}
+a:link
+{
+	text-decoration: none;
+	color: #2E3192;
+}
+a:hover
+{
+	text-decoration: underline;
+	color: #2E3192;
+}
+.maintable {
+}
+
+.page_title {
+	background-color: #FFFFFF;
+	filter: progid:DXImageTransform.Microsoft.Gradient(startColorStr='#678AC6', endColorStr='#FFFFFF', gradientType='1');
+	height: 50px;
+}
+.page_header {
+	background-color: #FFFFFF;
+	filter: progid:DXImageTransform.Microsoft.Gradient(startColorStr='#FFFFFF', endColorStr='#678AC6', gradientType='1');
+}
+.page_headerbar {
+	background-color: #678AC6;
+}
+#topmenu 
+{
+	font: 10px Verdana;
+	color: #000000;
+}
+#topmenu a
+{
+	text-decoration: none;
+	font: 10px Verdana;
+	color: #000000;
+}
+.topmenu_no {
+	padding: 1px 2px 1px 2px;
+	border-width: 0px;
+	cursor: hand;
+}
+.topmenu0 {
+	padding: 1px 6px 1px 6px;
+	border-width: 0px;
+	cursor: hand;
+}
+.topmenu1 {
+	padding: 0px 5px 0px 5px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #678AC6;
+	background-color: #C2D0E8;
+	cursor: hand;
+}
+#mainmenu
+{
+	height: 20px;
+}
+#mainmenu a {
+	text-decoration: none;
+	font: bold 10px Verdana;
+	padding: 0px 10px 0px 10px;
+	color: #000000;
+}
+#mainmenu a:hover {
+	text-decoration: underline;
+}
+#mainmenu .mainmenu1 {
+	text-decoration: none;
+	font: bold 10px Verdana;
+	padding: 0px 10px 0px 10px;
+	color: #FFFFFF;
+	cursor: default;
+}
+#leftpanel
+{
+	width: 180px;
+	height: 674px;
+}
+#submenu a {
+	text-decoration: none;
+	font: 10px Verdana;
+	color: #000000;
+}
+.submenu {
+	background-color: #F1F1F1;
+	border-style: solid;
+	border-width: 0px;
+	border-right-width: 1px;
+	border-color: #BBBBBB;
+}
+.submenu0 {
+	font: 10px Verdana;
+	padding: 3px 5px 3px 5px;
+	border-width: 0px;
+	cursor: hand;
+}
+.submenu1 {
+	font: 10px Verdana;
+	padding: 2px 4px 2px 4px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #999999;
+	background-color: #EEEEEE;
+	cursor: hand;
+	filter: progid:DXImageTransform.Microsoft.Gradient(startColorStr='#EEEEEE', endColorStr='#DEDEDE', gradientType='0');
+}
+.submenusep 
+{
+	padding: 0px 0px 0px 0px;
+	background-color: #BBBBBB;
+}
+#tailer {
+	padding: 2px 4px 2px 4px;
+	background-color: #678AC6;
+	border-style: solid;
+	border-width: 0px;
+	border-top-width: 1px;
+	border-color: #678AC6;
+	color: #FFFFFF;
+	height: 20px;
+	filter: progid:DXImageTransform.Microsoft.Gradient(startColorStr='#678AC6', endColorStr='#FFFFFF', gradientType='1');
+}
+.tailer2
+{
+	color: #000000;
+}
+
+.error
+{
+	color: #ee1111;
+}
+table.formtitle
+{
+	width: 843px;
+	height: 57px;
+	background-color: #678ac6;
+}
+table.form
+{
+	width: 843px;
+	background-color: #678ac6;
+	height: 573px;
+}
+table.form2
+{
+	width: 843px;
+	background-color: #678ac6;
+	height: 540px;
+}
+table.formstatus
+{
+	width: 843px;
+	height: 44px;
+	background-color: #678ac6;
+}
+td.formheader
+{
+	padding: 1px 1px 1px 4px;
+	background-color: #C2D0E8;
+	filter: progid:DXImageTransform.Microsoft.Gradient(startColorStr='#C2D0E8', endColorStr='#FFFFFF', gradientType='1');
+	font: bold 20px Arial;
+}
+td.formsubheader
+{
+	padding: 1px 1px 0px 4px;
+	height: 22px;
+	color: #FFFFFF;
+	font-weight: bold;
+}
+td.formsubheader2
+{
+	padding: 1px 1px 0px 4px;
+	height: 44px;
+	color: #FFFFFF;
+	font-weight: bold;
+}
+td.formpageid
+{
+	padding: 1px 1px 0px 4px;
+	height: 22px;
+	background-color: #FFFFFF;
+	color: #678ac6;
+	font-weight: bold;
+}
+td.formgroup
+{
+	padding: 1px 1px 1px 9px;
+	background-color: #C2D0E8;
+	filter: progid:DXImageTransform.Microsoft.Gradient(startColorStr='#F9FAFD', endColorStr='#C2D0E8', gradientType='0');
+	font-weight: bold;
+	color: #000000;
+	height: 22px;
+}
+td.form
+{
+	padding: 1px 1px 1px 13px;
+	background-color: #C2D0E8;
+	height: 22px;
+	width: 200px;
+}
+td.formvalue
+{
+	padding: 1px 1px 1px 4px;
+	background-color: #FFFFFF;
+	filter: progid:DXImageTransform.Microsoft.Gradient(startColorStr='#FFFFFF', endColorStr='#F9FAFD', gradientType='1');
+	height: 22px;
+	width: 634px;
+}
+td.formblank
+{
+	background-color: #EDF1F8;
+}
+td.formstatus
+{
+	padding: 1px 1px 1px 4px;
+	background-color: #C2D0E8;
+	height: 22px;
+}
+td.formcontrol
+{
+	padding: 2px 4px 0px 4px;
+	height: 22px;
+	color: #FFFFFF;
+}
+
+table.logintitle
+{
+	width: 1023px;
+	height: 57px;
+	background-color: #678ac6;
+}
+table.login
+{
+	width: 1023px;
+	height: 573px;
+	background-color: #678ac6;
+}
+table.loginbox
+{
+	background-color: #678ac6;
+}
+table.loginstatus
+{
+	width: 1023px;
+	height: 44px;
+	background-color: #678ac6;
+}
+td.login
+{
+	padding: 1px 1px 1px 13px;
+	background-color: #C2D0E8;
+	height: 22px;
+	width: 180px;
+}
+td.loginvalue
+{
+	padding: 1px 1px 1px 4px;
+	background-color: #FFFFFF;
+	filter: progid:DXImageTransform.Microsoft.Gradient(startColorStr='#FFFFFF', endColorStr='#F9FAFD', gradientType='1');
+	height: 22px;
+	width: 230px;
+}
+
+table.grid
+{
+	border-color: #678ac6;
+}
+tr.gridheader
+{
+	padding: 1px 4px 1px 4px;
+	background-color: #C2D0E8;
+	filter: progid:DXImageTransform.Microsoft.Gradient(startColorStr='#F9FAFD', endColorStr='#C2D0E8', gradientType='0');
+	font-weight: bold;
+	color: #000000;
+	height: 22px;
+}
+tr.gridcontrol
+{
+	padding: 1px 4px 1px 4px;
+	background-color: #C2D0E8;
+	filter: progid:DXImageTransform.Microsoft.Gradient(startColorStr='#F9FAFD', endColorStr='#C2D0E8', gradientType='0');
+	font-weight: bold;
+	color: #995555;
+	height: 21px;
+}
+tr.grid
+{
+	padding: 1px 4px 1px 4px;
+	background-color: #FFFFFF;
+	filter: progid:DXImageTransform.Microsoft.Gradient(startColorStr='#FFFFFF', endColorStr='#F9FAFD', gradientType='1');
+	height: 22px;
+}
+tr.grid2
+{
+	padding: 1px 4px 1px 4px;
+	background-color: #F9FAFD;
+	height: 22px;
+}
+tr.gridtotal
+{
+	padding: 1px 4px 1px 4px;
+	background-color: #F0E68C;
+	filter: progid:DXImageTransform.Microsoft.Gradient(startColorStr='#F9FAFD', endColorStr='#C2D0E8', gradientType='0');
+	font-weight: bold;
+	color: #000000;
+	height: 22px;
+}
+
+input.form
+{
+	font: 12px Tahoma;
+	border: solid 1px #AAAAAA;
+	background-color: #F0F0F0;
+	filter: progid:DXImageTransform.Microsoft.Gradient(startColorStr='#F5F5F5', endColorStr='#FFFFFF', gradientType='0');
+}
+input.formbtn
+{
+	font: 12px Tahoma;
+	border: solid 1px #FFFFFF;
+	background-color: #C2D0E8;
+	filter: progid:DXImageTransform.Microsoft.Gradient(startColorStr='#F9FAFD', endColorStr='#C2D0E8', gradientType='0');
+	padding: 0px 4px 0px 4px;
+	cursor: hand;
+}
+select.form
+{
+	font: 12px Tahoma;
+	border: solid 1px #AAAAAA;
+	background-color: #F0F0F0;
+}
